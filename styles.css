@@ -1,0 +1,131 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Container styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styling */
+header {
+    background: hsl(310, 44%, 48%); /* Coral color */
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #a13dae; 
+    border-radius: 5px;
+}
+
+.actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn {
+    background: #fff;
+    color: #d084e3;
+    border: 1px solid #f0e6f0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background: #bb74bb; 
+    color: #fff;
+}
+
+/* Main section styling */
+main {
+    padding: 2rem 0;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.product {
+    background: #f0bdef;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: calc(33.333% - 1rem); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h2 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.product p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.product button {
+    background: #9336a5; 
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.product button:hover {
+    background: #e18dcc;
+}
+
+/* Footer styling */
+footer {
+    background: #d134d1; /* Coral color */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
